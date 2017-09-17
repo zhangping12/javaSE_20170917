@@ -6,8 +6,8 @@ public class ArithmeticOperators {
         int z = x+y;
         z = x-y;
         z = x*y;
-        z = x/y;//截取余数
-        z = x%y; //mod 求余运算，只要余数，符号只与被除数有关
+        z = x/y;//截取余数 结果为0
+        z = x%y; //mod 求余运算，只要余数，符号只与被除数有关.-19%-100=-19；-19%100=-19；19%-100=19；19%100=19
 
         System.out.println(z++);
         System.out.println(z);
