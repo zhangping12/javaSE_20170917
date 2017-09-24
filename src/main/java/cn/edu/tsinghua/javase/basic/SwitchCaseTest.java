@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 public class SwitchCaseTest {
     public static void main(String[] args) {
         String level = "A";

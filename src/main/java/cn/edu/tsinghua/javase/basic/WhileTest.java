@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 public class WhileTest {
     public static void main(String[] args) {
         int i = 0;

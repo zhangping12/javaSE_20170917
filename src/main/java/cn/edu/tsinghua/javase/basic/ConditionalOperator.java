@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 //条件运算符
 public class ConditionalOperator {
     public static void main(String[] args) {

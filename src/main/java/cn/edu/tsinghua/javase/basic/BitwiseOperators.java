@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 //位运算符
 public class BitwiseOperators {
     public static void main(String[] args) {

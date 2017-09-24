@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 //算数运算符
 public class ArithmeticOperators {
     public static void main(String[] args) {

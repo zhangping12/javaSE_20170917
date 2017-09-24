@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 public class Fortest {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++){

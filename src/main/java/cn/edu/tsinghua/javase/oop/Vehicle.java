@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.oop;
+
 public class Vehicle {
 
     String type;//跑车 山地车 商务车，公共汽车，出租车，飞机，火车，轮船
@@ -6,9 +8,12 @@ public class Vehicle {
     String capacity ;//客容量
     String discharge;//排放量
 
+
     void run(){
 
     }
 
+    void stop(){
 
+    }
 }

@@ -1,3 +1,4 @@
+package cn.edu.tsinghua.javase.exercise;
 
 // 判断[101,200]有多少个素数，并输出所有素数
 // 素数：只能被1和它本身整除的正整数（1不是素数）

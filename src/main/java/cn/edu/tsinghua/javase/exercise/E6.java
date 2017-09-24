@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.exercise;
+
 import java.util.Scanner;
 // 输入两个正整数m和n，求其最大公约数和最小公倍数
 public class E6 {
@@ -27,7 +29,7 @@ public class E6 {
 }
 
 /*
-public class E6 {
+public class cn.edu.tsinghua.javase.exercise.E6 {
     public static void main(String[] args) {
         // 12 10 最小公约数2 最小公倍数60
         Scanner scanner = new Scanner(System.in);

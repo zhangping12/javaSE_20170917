@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 public class Modifier {
     public static void main(String[] args) {
         String cat = "cat";

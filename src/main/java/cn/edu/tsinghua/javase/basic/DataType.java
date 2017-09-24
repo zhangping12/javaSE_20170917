@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 public class DataType {
     public static void main(String[] args) {
         boolean b = false;
@@ -20,7 +22,7 @@ public class DataType {
         System.out.println(f);
         System.out.println(d);
 
-        String s1 = "test...中文...";//class
+        String s1 = "Test...中文...";//class
         System.out.println(s1);
 
         String name = "ZHANGSAN";

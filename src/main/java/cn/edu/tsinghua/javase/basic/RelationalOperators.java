@@ -1,3 +1,5 @@
+package cn.edu.tsinghua.javase.basic;
+
 //关系运算符
 public class RelationalOperators {
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class RelationalOperators {
         String s2 = "2";
         System.out.println(s1==s2);//false
 
-        String s3 = "Hello";
+        String s3 = "cn.edu.tsinghua.javase.oop.Hello";
         String s4 = "hello";
         System.out.println(s3==s4);//false
 
