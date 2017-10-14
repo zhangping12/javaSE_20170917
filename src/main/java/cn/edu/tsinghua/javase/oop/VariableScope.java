@@ -16,7 +16,7 @@ public class VariableScope {
         test(1d);//调用test方法
     }
 
-    private static int i;
+    private static int i;// 类作用域范围：类的起始 { 到类的终止 } 类的域和方法。所以此句定义i变量在赋值之后不会报错，但是也不建议
 
     public static void test(double d) {
         System.out.println(d);
@@ -26,7 +26,7 @@ public class VariableScope {
             System.out.println(j);
         }
 
-        for (int j = 0; j < 10; j++) {
+        for (int j = 0; j < 10; j++) {//也不会跟上面的for循环重复，在于作用域不同
             System.out.println(j);
         }
 
