@@ -26,7 +26,7 @@ public class Human {
         this.name = name;//this表示当前类
     }
 
-    public Human(String name, int age, char gender, double height, double weight, boolean married) {
+    public Human(String name, int age, char gender, double height, double weight, boolean married) {//有参的构造方法
         this.name = name;
         this.age = age;
         this.gender = gender;
