@@ -10,12 +10,12 @@ public class StringVsStringBuffer {
 
         StringBuffer stringBuffer = new StringBuffer();
 
-        long start = System.currentTimeMillis(); // 1970.1.1 - current
+        long start = System.currentTimeMillis(); // 1970.1.1 - current 开始时间
         for (int i = 0; i < 10000; i++) {
      //      s += ALPHABET;//用string执行//2284毫秒
             stringBuffer.append(ALPHABET);//用stringBuffer执行5毫秒
         }
-        long end = System.currentTimeMillis();
+        long end = System.currentTimeMillis();//执行完循环之后的时间
 
         System.out.println(end - start);
 
