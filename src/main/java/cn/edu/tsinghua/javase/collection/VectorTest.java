@@ -3,7 +3,7 @@ package cn.edu.tsinghua.javase.collection;
 import java.util.Vector; // util - utility 实用程序\ [juːˈtɪlɪtɪ]
 
 /**
- * 向量
+ * 向量 vector是一个能够存放任意类型的动态数组，能够增加和压缩数据。
  */
 public class VectorTest {
     public static void main(String[] args) {
@@ -37,5 +37,6 @@ public class VectorTest {
         for (String string : strings) {
             System.out.println(string);//test hello a
         }
+
     }
 }
