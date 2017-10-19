@@ -20,9 +20,10 @@ public class HomeworkArrayList {
 
         // class = field + method
         Field field = ArrayList.class.getDeclaredField("elementData");// java.lang.reflect
-        field.setAccessible(true);
+        field.setAccessible(true);//默认是false，加这句的作用就是让我们在用反射时访问私有变量
 
-        strings.trimToSize();
+
+     //   strings.trimToSize();//修剪，使size=capacity，本来是11 ，15 ，修剪完变为11，11
 
         System.out.println(((Object[]) field.get(strings)).length);
 //        ensure 确保\ [ɪn'ʃɔː\;\ -'ʃʊə\;\ en-]
