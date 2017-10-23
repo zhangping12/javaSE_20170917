@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class CheckedExceptionTest {
 
-    public void method() throws FileNotFoundException {
+    public void method() throws FileNotFoundException {//抛出的异常，如果在下面已经处理了，在调用的话就不需要抛出了，否则的就得抛
 
     }
 
