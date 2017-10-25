@@ -10,13 +10,13 @@ public class WriterTest {
         try {
             writer = new FileWriter("test1");
             writer.write("中文");
-            writer.flush();
+            writer.flush();//缓存的内容写到硬盘
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
             if(writer != null){
                 try {
-                    writer.close();
+                    writer.close();//如果释放了资源  不用调用write.flush();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
